@@ -1,1 +1,1 @@
-web: node src/clabot.js
+web: node index.js

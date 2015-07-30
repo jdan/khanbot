@@ -1,14 +1,13 @@
 {
-  "name": "clabot-boilerplate",
-  "description": "A clabot boilerplate",
+  "name": "khanbot",
+  "description": "Detects if the KA CLA has been signed",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/clabot/boilerplate.git"
+    "url": "git://github.com/jdan/khanbot.git"
   },
-  "main": "src/clabot.js",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "dependencies": {
     "clabot": "0.0.4"
