@@ -17,7 +17,7 @@ var app = clabot.createApp({
         maintainer: "$githubusername",
     },
     secrets: {
-        "khanbot": {
+        "Khan": {
             "clabot-testing": process.env.HUB_SECRET,
         },
     },
