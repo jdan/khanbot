@@ -13,6 +13,7 @@ var app = clabot.createApp({
         confirmSigned: "",
         */
     },
+    skipCollaborators: false,
     secrets: {
         "Khan": {
             "clabot-testing": process.env.HUB_SECRET,
