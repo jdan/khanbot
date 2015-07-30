@@ -1,3 +1,4 @@
+var fs = require("fs");
 var clabot = require("clabot");
 
 var app = clabot.createApp({
@@ -5,16 +6,12 @@ var app = clabot.createApp({
         callback(["not-jdan"]);
     },
     token: process.env.GITHUB_TOKEN,
-    /*
     templates: {
+        notYetSigned: fs.readFileSync("./templates/not-yet-signed.template.md", "utf-8"),
+        /*
         alreadySigned: "",
-        notYetSigned: "",
         confirmSigned: "",
-    },
-    */
-    templateData: {
-        link: "$http://your-cla-webform.com",
-        maintainer: "$githubusername",
+        */
     },
     secrets: {
         "Khan": {
